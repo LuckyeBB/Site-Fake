@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<HTML lang="pt-br">
+   <HEAD> 
+		<meta charset="utf-8" >
+       <META name="viewport" content="width=device-width, initial-scale=1.0">
+       <TITLE>Hígia - Aplicativo de Reciclagem</TITLE>
+	   
+        <link rel="stylesheet" href="css/style.css">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    	<link href='https://fonts.googleapis.com/css?family=Lato:400,300,700' rel='stylesheet' type='text/css'>
+		<link rel = "icon" href="img/icon.png">
+	</HEAD>
+	<BODY>
+		<!-- CABEÇALHO --> 
+		<header class="cabecalho container">
+			<a href="sitefmm.html"><h1 class = "logo"> Hígia - Cidade Limpa. Consciência também.</h1></a>
+			<button class="btn-menu"><i class="fa fa-bars fa-lg"></i></button>
+			<nav class = "menu">
+				<a class = "btn-close"><i class ="fa fa-times"></i></a>
+				<ul>
+					<li><a href="#">Home</li>
+					<li><a href="#">A Empresa</li>
+					<li><a href="#">Serviços</li>
+					<li><a href="#">Notícias</li>
+					<li><a href="#">Compromisso</li>
+					<li><a href="#">Contato</li>
+				</ul>
+			</nav>
+		</header>
+		<!-- BANNER --> 
+		<div class = "banner container">
+			<div class ="title">
+				<h2>Um Planeta limpo</H2>
+				<H3>Só depende de você!</h3>
+			</div>
+		</div>
+		<!-- SERVICOS -->
+		<main class = "servicos container">
+			<article class = "servico bg-white radius">
+				<a href="#"><img src = "img/cartao1.png" alt = "Lei das Geradoras de Residuos"></a>
+				<div class = "inner">
+					<a href = "#">Lei das Grandes Geradoras de Resíduos Sólidos</a>
+					<h4>Saiba mais sobre a nova legislação<h4>
+					<p>A AMLURB, Autoridade Municipal de Limpeza Urbana, é a entidade em São Paulo responsável pela administração dos resíduos e manutenção da limpeza da cidade. Recentemente a autarquia exigiu que todas as empresas dos setores privados da capital realizassem o CTR-E, sob pena de multa. O que é o CTR-E? O Cadastro do Controle de Transporte de Resíduos (CTR-E)</p>
+				</div>
+			</article>
+			<article class = "servico bg-white radius">
+				<a href = "#"><img src="img/cartao2.png" alt = "Sustentabilidade"></a>
+				<div class = "inner">
+					<a href="#">O que é Sustentabilidade?</a>
+					<h4>Saiba Mais!<h4>
+					<p>Saiba mais sobre o que “sustentabilidade” significa! O que é Sustentabilidade? – Nossa sociedade está cada vez mais se atentando a um estilo de vida mais saudável para o planeta em que vivemos. Está crescente um cuidado com os recursos naturais e o habitat de uma fauna e flora tão diversa. Dentro desse cenário, o conceito de “sustentabilidade” torna-se cada vez mais relevante, e é importante entender o que ele significa.</p>
+				</div>
+			</article>
+			<article class = "servico bg-white radius">
+				<a href = "#"><img src = "img/cartao3.png" alt = "Garrafa PET"></a>
+				<div class ="inner">
+					<a href ="#">Reciclagem da Garrafa PET</a>
+					<h4>Entenda como funciona</h4>
+					<p>A garrafa PET, sigla que significa “politereftalato de etileno”, é o plástico mais comumente usado na produção de garrafas. Dentro da coleta seletiva, o plástico deve ser descartado nas lixeiras de cor vermelha. Qual a importância do PET? Criado no ano de 1914, foi apenas em 1973, nos Estados Unidos, que o PET tomou a forma...</p>
+				</div>
+			</article>
+		</main>
+		<!-- NEWSLETTER -->
+		<section class = "newsletter container bg-black">
+			<h2> Inscreva-se agora !</h2>
+			<h3>Receba novidades, dicas e muito mais</h3>
+			<form>
+				<input class = "bg-black radius" type = "email" name = "email" placeholder="Seu email">
+				<button class = "bg-white radius">Cadastrar</button>
+			</form>
+		</section>
+		<!-- RODAPÉ -->
+		<footer class = "rodape container bg-higia">
+			<div class = "social-icons">
+				<a href = "#"><i class = "fa fa-facebook"></i></a>
+				<a href = "#"><i class = "fa fa-twitter"></i></a>
+				<a href = "#"><i class = "fa fa-google"></i></a>
+				<a href = "#"><i class = "fa fa-instagram"></i></a>
+				<a href = "#"><i class = "fa fa-envelope"></i></a>
+			</div>
+			<p class = "copyright">
+				Copyright © Hígia 2019. Todos os direitos reservados.<br>
+				Equipe Hígia: Lucas Bruno, Heloisa Panza e Navvab Portela.
+			</p>
+		</footer>
+		<!-- JQUERY -->
+		<script src="http://code.jquery.com/jquery-1.12.0.min.js"></script>
+		<script>
+		$(".btn-menu").click(function(){
+			$(".menu").show();
+		});
+		$(".btn-close").click(function(){
+			$(".menu").hide();
+		});
+		</script>
+   </BODY> 
+</HTML>
