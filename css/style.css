@@ -15,7 +15,7 @@ img{max-width:100%;}
 
 .radius{border-radius:7px;}
 
-.logo{width:56px;height:56px;float:left; background: url(../img/logo-mobile.jpg) center center/56px no-repeat;
+.logo{width:56px;height:56px;float:left; background: url(../img/logo.jpg) center center/56px no-repeat;
 font-size:0;}
 .btn-menu{width:56px; height:56px; float:right; text-align:center; background-color:rgb(129, 130, 70); border-radius:56px; cursor:pointer; color: white;}
 
